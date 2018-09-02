@@ -18,7 +18,7 @@ let mainWindow
 
 // Standard scheme must be registered before the app is ready
 protocol.registerStandardSchemes(['app'], { secure: true })
-function createMainWindow () {
+function createMainWindow() {
   const window = new BrowserWindow()
 
   if (isDevelopment) {
